@@ -7,10 +7,11 @@ version: 2
 
 # Personal info
 name: Mantas Alonderis
-title: Data Observability Engineer | AWS Cloud & Infrastructure Specialist | Building Reliable Data Ecosystems
+title: Observability Engineer
 email: mantas.alonderis@gmail.com
 phone: (267) 777-7150
-website: https://malond11.github.io/mycv/
+website: https://malond11.github.io/resume/
+location: Philadelphia, PA
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -31,10 +32,10 @@ linkedin_username: mantas-alonderis
 # orcid_username: 
 
 # Additional icon links
-# additional_links:
-# - title: 
-#   icon: 
-#   url: 
+additional_links:
+- title: Download PDF Resume
+  icon: fas fa-file-pdf
+  url: /assets/Mantas_Alonderis_Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -47,14 +48,14 @@ linkedin_username: mantas-alonderis
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.png
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Versatile Software Development engineer adept at building and maintaining robust, scalable infrastructure and data solutions. Proficient in AWS, Terraform, and observability tools (DataDog, Elasticsearch). Experienced in implementing CI/CD pipelines, optimizing system reliability, and architecting data workflows. Excels in process automation and resolving complex operational issues. Leverages unique background in embedded systems to enhance performance and reliability across infrastructure and data ecosystems.
 
   I am most skilled in: <mark>AWS</mark>, <mark>Terraform</mark>, <mark>Python</mark>, <mark>Data Observability</mark>, and <mark>CI/CD Pipelines</mark>
 
 content:
-  - title: Key Projects # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -72,12 +73,12 @@ content:
 
           **Key Contributions:**
           
-          - Developed critical API endpoints that powered internal company AI chatbots and analytics applications, enabling efficient analysis of device telemetry and feature flag performance across millions of devices
-          - Implemented comprehensive AWS infrastructure leveraging S3, Athena, Glue Data Catalog, and Aurora databases to process and analyze terabytes of device telemetry data
+          - Developed critical API endpoints that powered internal company AI chatbots and analytics applications, enabling efficient analysis of device telemetry and feature flag performance across **millions of devices**
+          - Implemented comprehensive AWS infrastructure leveraging S3, Athena, Glue Data Catalog, and Aurora databases to process and analyze **terabytes of device telemetry data**
           - Containerized the application using Docker and orchestrated automated deployments via AWS Elastic Beanstalk and Concourse CI/CD pipelines
           - Developed a modular, extensible framework using Flask-RESTX that enabled rapid integration of new analytics endpoints while maintaining clear separation of concerns
           - Enhanced system observability by implementing query execution metrics, custom response headers, and detailed logging for performance monitoring
-          - Optimized database query patterns for AWS Athena, resulting in significant cost reduction and improved query efficiency for large datasets
+          - Optimized database query patterns for AWS Athena, resulting in **significant cost reduction** and improved query efficiency for large datasets
           
           **Technologies:** <mark>Python</mark>, <mark>Flask</mark>, <mark>AWS</mark> (S3, Athena, Glue, Aurora, Elastic Beanstalk), <mark>Docker</mark>, <mark>Concourse CI/CD</mark>, <mark>SQL</mark>, <mark>RESTful API</mark>, <mark>Pandas</mark>, <mark>Data Analytics</mark>, <mark>Telemetry Processing</mark>
 
@@ -99,9 +100,9 @@ content:
           - Developed machine learning models for predictive analytics, improving trend forecasting accuracy
           - Integrated custom alerting mechanisms with messaging services via webhooks and APIs, enhancing incident response
           - Implemented Elasticsearch and Kibana for application-level logging and performance visualization
-          - Slashed anomaly detection time by 60% and issue resolution time by 40% through advanced algorithms
-          - Boosted system reliability by 25% with automated issue resolution and continuous monitoring
-          - Achieved 99.99% uptime for critical data pipelines through robust infrastructure and efficient alerting mechanisms
+          - Slashed anomaly detection time by **60%** and issue resolution time by **40%** through advanced algorithms
+          - Boosted system reliability by **25%** with automated issue resolution and continuous monitoring
+          - Achieved **99.99% uptime** for critical data pipelines through robust infrastructure and efficient alerting mechanisms
           
           **Technologies:** <mark>Terraform</mark>, <mark>AWS</mark> (CloudWatch, Lambda, SNS, SQS, S3), <mark>Datadog</mark>, <mark>GitHub Actions</mark>, <mark>Apache Spark</mark>, <mark>Machine Learning</mark>, <mark>Elasticsearch</mark>, <mark>Kibana</mark>
 
@@ -119,7 +120,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Key Responsibilities:**
           - Established Git and GitHub workflows for source code management, enhancing code quality and team collaboration
-          - Optimized CI/CD pipelines using Github Actions or AWS CodePipeline, reducing deployment times by 40% and increasing release frequency
+          - Optimized CI/CD pipelines using Github Actions or AWS CodePipeline, reducing deployment times by **40%** and increasing release frequency
           - Designed and implemented comprehensive data observability solutions
           - Built AWS, Terraform, and DataDog monitoring systems
           - Developed real-time data health dashboards and KPI tracking systems
@@ -127,13 +128,13 @@ content:
           - Led mentorship programs on data observability best practices
           
           **Key Achievements:**
-          - Engineered data collection and analysis processes for edge devices, elevating data quality by 40%
-          - Architected advanced anomaly detection algorithms, cutting false positive alerts by 60%
-          - Led collaboration between hardware and data science teams, boosting system performance by 25%
-          - Pioneered application of machine learning techniques from signal processing, accelerating system failure detection by 30%
-          - Decreased data-related incidents by 35%
-          - Achieved 99.9% visibility into critical data pipelines
-          - Slashed issue detection time by 50%
+          - Engineered data collection and analysis processes for edge devices, elevating data quality by **40%**
+          - Architected advanced anomaly detection algorithms, cutting false positive alerts by **60%**
+          - Led collaboration between hardware and data science teams, boosting system performance by **25%**
+          - Pioneered application of machine learning techniques from signal processing, accelerating system failure detection by **30%**
+          - Decreased data-related incidents by **35%**
+          - Achieved **99.9% visibility** into critical data pipelines
+          - Slashed issue detection time by **50%**
 
       - layout: left
         title: Comcast
@@ -150,8 +151,8 @@ content:
           - Developed Python scripts to automate WiFi anomaly triage
           
           **Key Achievements:**
-          - Boosted productivity by 15%
-          - Reduced triage times by 10%
+          - Boosted productivity by **15%**
+          - Reduced triage times by **10%**
           - Significantly enhanced squad efficiency
 
   - title: Education # Title for the section
@@ -181,6 +182,26 @@ content:
       **Soft Skills**: <mark>Leadership</mark>, <mark>Communication</mark>, <mark>Problem-solving</mark>, <mark>Decision-making</mark>, <mark>Cross-functional Collaboration</mark>
       
       **Languages**: <mark>English</mark>, <mark>Russian</mark>, <mark>Lithuanian</mark>
+
+  - title: Interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Sports**: <mark>BJJ</mark>, <mark>Soccer</mark>, <mark>Basketball</mark>
+      
+      **Building**: <mark>Woodworking</mark>, <mark>Building Science</mark>
+      
+      **Open Source**: <mark>All of it</mark>
+
+  - title: Contact Information
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Email: mantas.alonderis@gmail.com
+      
+      Phone: (267) 777-7150
+      
+      Web: https://malond11.github.io/mycv/
+      
+      Location: Philadelphia, PA
 
 # Footer
 footer_show_references: true

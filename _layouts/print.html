@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name }} - Resume</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #000;
+            background: #fff;
+            font-size: 12pt;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        h1, h2, h3, h4 {
+            margin-top: 0;
+            page-break-after: avoid;
+        }
+        
+        h1 {
+            font-size: 24pt;
+            margin-bottom: 5px;
+        }
+        
+        h2 {
+            font-size: 18pt;
+            border-bottom: 1px solid #ccc;
+            margin-top: 20px;
+            padding-bottom: 5px;
+        }
+        
+        h3 {
+            font-size: 14pt;
+            margin-bottom: 5px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .contact-info {
+            font-size: 10pt;
+            margin-bottom: 20px;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        
+        .job, .project, .education {
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+        
+        .job-title, .project-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .job-date, .project-date, .education-date {
+            font-style: italic;
+            font-size: 10pt;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+        
+        li {
+            margin-bottom: 3px;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                font-size: 10pt;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+            
+            .no-print {
+                display: none;
+            }
+            
+            .page-break {
+                page-break-before: always;
+            }
+        }
+        
+        mark {
+            background: #f0f0f0;
+            padding: 1px 3px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        /* Hide unnecessary elements when printing */
+        .profile-img, .footer, nav, button, .dark-mode-toggle, .icon-a {
+            display: none;
+        }
+        
+        /* Metrics highlight */
+        strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body onload="window.print()">
+    <div class="container">
+        <div class="header">
+            <h1>{{ site.name }}</h1>
+            <div>{{ site.title }}</div>
+            <div class="contact-info">
+                {{ site.email }} | {{ site.phone }} | {{ site.location }} | <a href="{{ site.linkedin_username | prepend: 'https://linkedin.com/in/' }}">LinkedIn</a> | <a href="{{ site.github_username | prepend: 'https://github.com/' }}">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Summary</h2>
+            <div>{{ site.about_content | markdownify }}</div>
+        </div>
+        
+        {% for section in site.content %}
+            <div class="section">
+                <h2>{{ section.title }}</h2>
+                {% if section.layout == "list" %}
+                    {% for item in section.content %}
+                        <div class="{{ section.title | downcase | replace: ' ', '-' }}">
+                            <h3>{{ item.title }} {% if item.sub_title %}- {{ item.sub_title }}{% endif %}</h3>
+                            {% if item.caption %}
+                                <div class="{{ section.title | downcase | replace: ' ', '-' }}-date">{{ item.caption }}</div>
+                            {% endif %}
+                            {% if item.quote %}
+                                <div><em>{{ item.quote }}</em></div>
+                            {% endif %}
+                            {% if item.description %}
+                                <div>{{ item.description | markdownify }}</div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div>{{ section.content | markdownify }}</div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+    
+    <script>
+        // Automatically close the window after printing
+        window.addEventListener('afterprint', function() {
+            window.close();
+        });
+    </script>
+</body>
+</html>
