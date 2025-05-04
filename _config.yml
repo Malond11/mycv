@@ -9,14 +9,14 @@ version: 2
 name: Mantas Alonderis
 title: Data Observability Engineer
 email: mantas.alonderis@gmail.com
-website: www.github.com/mantasalonderis
+website: www.github.com/manlond11
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: 
-github_username: mantasalonderis
+github_username: manlond11
 # stackoverflow_username: 
 # dribbble_username: 
 # facebook_username: 
@@ -46,7 +46,7 @@ linkedin_username: mantas-alonderis
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Mantas and I'm a Data Observability Engineer at Comcast. I specialize in building and maintaining robust, scalable infrastructure and data solutions. I have experience in implementing CI/CD pipelines, optimizing system reliability, and architecting data workflows.
 
