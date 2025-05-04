@@ -48,7 +48,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Versatile Software Development engineer adept at building and maintaining robust, scalable infrastructure and data solutions. Proficient in AWS, Terraform, and observability tools (DataDog, Elasticsearch). Experienced in implementing CI/CD pipelines, optimizing system reliability, and architecting data workflows. Excels in process automation and resolving complex operational issues. Leverages unique background in embedded systems to enhance performance and reliability across infrastructure and data ecosystems.
 
