@@ -1,5 +1,5 @@
 # Site
-repository: mantasalonderis/mycv
+repository: mantasalonderis
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -7,10 +7,10 @@ version: 2
 
 # Personal info
 name: Mantas Alonderis
-title: Observability Engineer
+title: Data Observability Engineer | AWS Cloud & Infrastructure Specialist | Building Reliable Data Ecosystems
 email: mantas.alonderis@gmail.com
 phone: (267) 777-7150
-website: https://malond11.github.io/mycv/
+website: https://malond11.github.io/
 location: Philadelphia, PA
 
 # Dark Mode (true/false/never)
