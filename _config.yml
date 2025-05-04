@@ -155,6 +155,21 @@ content:
           - Reduced triage times by **10%**
           - Significantly enhanced squad efficiency
 
+  - title: Technical Certifications
+    layout: list
+    content:
+      - layout: left
+        title: AWS Certified Cloud Practitioner
+        caption: 2024
+        description: |
+          Foundational certification validating understanding of AWS Cloud concepts, services, security, architecture, pricing, and support.
+
+      - layout: left
+        title: Certified Kubernetes Administrator (CKA)
+        caption: 2023
+        description: |
+          Professional certification demonstrating skills and knowledge to perform the responsibilities of a Kubernetes administrator, including installation, configuration, and management of production-grade Kubernetes clusters.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
