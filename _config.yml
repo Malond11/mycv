@@ -7,16 +7,17 @@ version: 2
 
 # Personal info
 name: Mantas Alonderis
-title: Data Observability Engineer
+title: Observability Engineer
 email: mantas.alonderis@gmail.com
-website: www.github.com/manlond11
+phone: (267) 777-7150
+website: https://malond11.github.io/resume/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 # twitter_username: 
-github_username: manlond11
+github_username: Malond11
 # stackoverflow_username: 
 # dribbble_username: 
 # facebook_username: 
@@ -46,19 +47,43 @@ linkedin_username: mantas-alonderis
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.png
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Mantas and I'm a Data Observability Engineer at Comcast. I specialize in building and maintaining robust, scalable infrastructure and data solutions. I have experience in implementing CI/CD pipelines, optimizing system reliability, and architecting data workflows.
+  Versatile Software Development engineer adept at building and maintaining robust, scalable infrastructure and data solutions. Proficient in AWS, Terraform, and observability tools (DataDog, Elasticsearch). Experienced in implementing CI/CD pipelines, optimizing system reliability, and architecting data workflows. Excels in process automation and resolving complex operational issues. Leverages unique background in embedded systems to enhance performance and reliability across infrastructure and data ecosystems.
 
-  I am most skilled in: <mark>AWS</mark>, <mark>Terraform</mark>, and <mark>Data Observability</mark>
+  I am most skilled in: <mark>AWS</mark>, <mark>Terraform</mark>, <mark>Python</mark>, <mark>Data Observability</mark>, and <mark>CI/CD Pipelines</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: API Framework for Telemetry Analytics
+        # link: comcast.com
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  
+        #     icon: 
+        #     url: 
+        quote: >
+          A high-performance RESTful API framework processing telemetry data from millions of RDK devices for in-house AI tools.
+        description: | # this will include new lines to allow paragraphs
+          Architected and implemented a high-performance RESTful API framework that processes telemetry data from millions of RDK devices and was used in in-house AI tools. This Flask-based service provided critical analytics capabilities through AWS-hosted microservices, enabling real-time monitoring and anomaly detection for large-scale device deployments.
+
+          **Key Contributions:**
+          
+          - Developed critical API endpoints that powered internal company AI chatbots and analytics applications, enabling efficient analysis of device telemetry and feature flag performance across millions of devices
+          - Implemented comprehensive AWS infrastructure leveraging S3, Athena, Glue Data Catalog, and Aurora databases to process and analyze terabytes of device telemetry data
+          - Containerized the application using Docker and orchestrated automated deployments via AWS Elastic Beanstalk and Concourse CI/CD pipelines
+          - Developed a modular, extensible framework using Flask-RESTX that enabled rapid integration of new analytics endpoints while maintaining clear separation of concerns
+          - Enhanced system observability by implementing query execution metrics, custom response headers, and detailed logging for performance monitoring
+          - Optimized database query patterns for AWS Athena, resulting in significant cost reduction and improved query efficiency for large datasets
+          
+          **Technologies:** <mark>Python</mark>, <mark>Flask</mark>, <mark>AWS</mark> (S3, Athena, Glue, Aurora, Elastic Beanstalk), <mark>Docker</mark>, <mark>Concourse CI/CD</mark>, <mark>SQL</mark>, <mark>RESTful API</mark>, <mark>Pandas</mark>, <mark>Data Analytics</mark>, <mark>Telemetry Processing</mark>
+
+      - layout: top-middle
         title: Comprehensive Data Observability and Anomaly Detection System
-        link: comcast.com
+        # link: comcast.com
         # link_text: Project Website
         # additional_links:
         #   - title:  
@@ -67,7 +92,18 @@ content:
         quote: >
           A robust system that slashed anomaly detection time by 60% and issue resolution time by 40%.
         description: | # this will include new lines to allow paragraphs
-          I architected monitoring infrastructure using Terraform, AWS services (CloudWatch, Lambda, SNS, SQS, S3), and Datadog. Implemented CI/CD pipelines with GitHub Actions, optimized data pipelines using Apache Spark, and developed machine learning models for predictive analytics. The system achieved 99.99% uptime for critical data pipelines through robust infrastructure and efficient alerting mechanisms.
+          Architected monitoring infrastructure using Terraform, AWS services (CloudWatch, Lambda, SNS, SQS, S3), and Datadog. Implemented CI/CD pipelines with GitHub Actions, automating infrastructure and configuration updates. Optimized data pipelines using Apache Spark, enhancing large-scale data processing and analysis efficiency. 
+          
+          **Key Achievements:**
+          
+          - Developed machine learning models for predictive analytics, improving trend forecasting accuracy
+          - Integrated custom alerting mechanisms with messaging services via webhooks and APIs, enhancing incident response
+          - Implemented Elasticsearch and Kibana for application-level logging and performance visualization
+          - Slashed anomaly detection time by 60% and issue resolution time by 40% through advanced algorithms
+          - Boosted system reliability by 25% with automated issue resolution and continuous monitoring
+          - Achieved 99.99% uptime for critical data pipelines through robust infrastructure and efficient alerting mechanisms
+          
+          **Technologies:** <mark>Terraform</mark>, <mark>AWS</mark> (CloudWatch, Lambda, SNS, SQS, S3), <mark>Datadog</mark>, <mark>GitHub Actions</mark>, <mark>Apache Spark</mark>, <mark>Machine Learning</mark>, <mark>Elasticsearch</mark>, <mark>Kibana</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -81,7 +117,23 @@ content:
         quote: >
           Spearheaded transition from embedded systems to data observability, applying expertise in data analysis and system optimization.
         description: | # this will include new lines to allow paragraphs
-          Engineered data collection and analysis processes for edge devices, elevating data quality by 40%. Architected advanced anomaly detection algorithms, cutting false positive alerts by 60%. Led collaboration between hardware and data science teams, boosting system performance by 25%. Established Git and GitHub workflows for source code management, enhancing code quality and team collaboration. Designed and implemented comprehensive data observability solutions, decreasing data-related incidents by 35%.
+          **Key Responsibilities:**
+          - Established Git and GitHub workflows for source code management, enhancing code quality and team collaboration
+          - Optimized CI/CD pipelines using Github Actions or AWS CodePipeline, reducing deployment times by 40% and increasing release frequency
+          - Designed and implemented comprehensive data observability solutions
+          - Built AWS, Terraform, and DataDog monitoring systems
+          - Developed real-time data health dashboards and KPI tracking systems
+          - Implemented end-to-end data lineage tracking
+          - Led mentorship programs on data observability best practices
+          
+          **Key Achievements:**
+          - Engineered data collection and analysis processes for edge devices, elevating data quality by 40%
+          - Architected advanced anomaly detection algorithms, cutting false positive alerts by 60%
+          - Led collaboration between hardware and data science teams, boosting system performance by 25%
+          - Pioneered application of machine learning techniques from signal processing, accelerating system failure detection by 30%
+          - Decreased data-related incidents by 35%
+          - Achieved 99.9% visibility into critical data pipelines
+          - Slashed issue detection time by 50%
 
       - layout: left
         title: Comcast
@@ -92,13 +144,22 @@ content:
         quote: >
           Led WiFi service optimization team, automating triage processes to boost productivity by 15%.
         description: | # this will include new lines to allow paragraphs
-          Implemented QA processes for firmware stability, specializing in WiFi anomaly detection and resolution. Automated device performance data analysis workflows with SQL and Python scripts, reducing triage times by 10%. Developed Python scripts to automate WiFi anomaly triage, significantly enhancing squad efficiency.
+          **Key Responsibilities:**
+          - Implemented QA processes for firmware stability, specializing in WiFi anomaly detection and resolution
+          - Automated device performance data analysis workflows with SQL and Python scripts
+          - Developed Python scripts to automate WiFi anomaly triage
+          
+          **Key Achievements:**
+          - Boosted productivity by 15%
+          - Reduced triage times by 10%
+          - Significantly enhanced squad efficiency
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Vilnius Gediminas Technical University
+        location: Vilnius, Lithuania
         caption: 2021
         sub_title: Bachelor's in Telecommunications Engineering, Minor in Electronics Engineering
         quote: >
@@ -109,7 +170,7 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Technical Skills**: <mark>Embedded Systems</mark>, <mark>Signal Processing</mark>, <mark>AWS</mark>, <mark>Terraform</mark>, <mark>Apache Spark</mark>, <mark>Python</mark>, <mark>SQL</mark>, <mark>Elasticsearch</mark>, <mark>Kibana</mark>, <mark>DataDog</mark>, <mark>Grafana</mark>, <mark>GitHub Actions</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>
+      **Technical Skills**: <mark>Embedded Systems</mark>, <mark>Signal Processing</mark>, <mark>AWS</mark> (Lambda, DynamoDB, S3, SNS, CloudWatch, Cloudformation), <mark>Terraform</mark>, <mark>Apache Spark</mark>, <mark>Python</mark>, <mark>SQL</mark>, <mark>Elasticsearch</mark>, <mark>ELK Stack</mark>, <mark>Splunk</mark>, <mark>Kibana</mark>, <mark>DataDog</mark>, <mark>Grafana</mark>, <mark>Promethius</mark>, <mark>GitHub Actions</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>, <mark>OpenAPI</mark>
       
       **Data Management**: <mark>Data Quality Monitoring</mark>, <mark>Anomaly Detection</mark>, <mark>Log Analysis</mark>, <mark>Data Lineage Tracking</mark>, <mark>SLA Management</mark>
       
