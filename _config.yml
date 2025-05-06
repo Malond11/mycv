@@ -35,7 +35,7 @@ linkedin_username: mantas-alonderis
 additional_links:
 - title: Download PDF Resume
   icon: fas fa-file-pdf
-  url: assets/Mantas_Alonderis_Resume.pdf
+  url: "{{ 'assets/Mantas_Alonderis_Resume.pdf' | relative_url }}"
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -178,8 +178,8 @@ content:
         location: Vilnius, Lithuania
         caption: 2021
         sub_title: Bachelor's in Telecommunications Engineering, Minor in Electronics Engineering
-        quote: >
-          GPA: 3.7
+        #quote: >
+          #GPA: 3.7
         description: | # this will include new lines to allow paragraphs
           Studied telecommunications and electronics engineering, developing skills in embedded systems, signal processing, and networking that I've leveraged throughout my career.
 
