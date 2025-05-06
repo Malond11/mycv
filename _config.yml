@@ -35,7 +35,7 @@ linkedin_username: mantas-alonderis
 additional_links:
 - title: Download PDF Resume
   icon: fas fa-file-pdf
-  url: /mycv/assets/Mantas_Alonderis_Resume.pdf
+  url: https://github.com/Malond11/mycv/blob/main/assets/Mantas_Alonderis_Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
