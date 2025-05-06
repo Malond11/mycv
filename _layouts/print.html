@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.name }} - Resume</title>
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -127,10 +128,14 @@
             <h1>{{ site.name }}</h1>
             <div>{{ site.title }}</div>
             <div class="contact-info">
-                {{ site.email }} | {{ site.phone }} | {{ site.location }} | <a href="{{ site.linkedin_username | prepend: 'https://linkedin.com/in/' }}">LinkedIn</a> | <a href="{{ site.github_username | prepend: 'https://github.com/' }}">GitHub</a>
+                {{ site.email }} | {{ site.phone }} | {{ site.location }} | 
+                <a href="{{ site.linkedin_username | prepend: 'https://linkedin.com/in/' }}">LinkedIn</a> | 
+                <a href="{{ site.github_username | prepend: 'https://github.com/' }}">GitHub</a> | 
+                <a href="{{ 'assets/Mantas_Alonderis_Resume.pdf' | relative_url }}" download>
+                    <i class="fas fa-file-pdf"></i> Download PDF Resume
+                </a>
             </div>
         </div>
-        
         <div class="section">
             <h2>Summary</h2>
             <div>{{ site.about_content | markdownify }}</div>
@@ -160,7 +165,6 @@
             </div>
         {% endfor %}
     </div>
-    
     <script>
         // Automatically close the window after printing
         window.addEventListener('afterprint', function() {
