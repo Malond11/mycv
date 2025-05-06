@@ -54,6 +54,12 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>AWS</mark>, <mark>Terraform</mark>, <mark>Python</mark>, <mark>Data Observability</mark>, and <mark>CI/CD Pipelines</mark>
 
+  <p style="margin-top: 20px;">
+    <a href="assets/Mantas_Alonderis_Resume.pdf" download="Mantas_Alonderis_Resume.pdf" style="display:inline-block; padding:8px 16px; background:#0366d6; color:white; text-decoration:none; border-radius:4px; font-weight:bold;">
+      <i class="fas fa-file-pdf" style="margin-right:8px;"></i>Download Complete Resume (PDF)
+    </a>
+  </p>
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
